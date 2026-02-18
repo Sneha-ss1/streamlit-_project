@@ -1,0 +1,54 @@
+C++ Introduction
+
+C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. It supports procedural, object-oriented, and generic programming.
+
+1. Basic Structure of a C++ Program
+-----------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+
+2. Variables and Data Types
+---------------------------
+C++ supports the following basic data types:
+- int: integer numbers
+- float: decimal numbers
+- double: double precision decimal numbers
+- char: single character
+- bool: true or false
+
+3. Control Statements
+---------------------
+C++ supports common control statements:
+- if, else if, else
+- switch
+- for, while, do-while loops
+
+4. Functions
+------------
+Functions allow you to reuse code:
+int add(int a, int b) {
+    return a + b;
+}
+
+5. Classes and Objects
+----------------------
+C++ is object-oriented:
+class Car {
+public:
+    string brand;
+    int year;
+    void start() {
+        cout << "Car started" << endl;
+    }
+};
+
+6. Standard Template Library (STL)
+-----------------------------------
+C++ has a powerful Standard Template Library (STL):
+- vectors, lists, maps
+- algorithms like sort(), find()
